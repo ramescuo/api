@@ -1,7 +1,7 @@
 ---
-category: Stuff
-path: '/stuff'
-title: 'Get stuff'
+category: Score
+path: '/score/space/{id}'
+title: 'Get space information for a score'
 type: 'GET'
 
 layout: nil

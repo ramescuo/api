@@ -238,3 +238,7 @@ code {
   padding: 15px;
   white-space: pre;
 }
+
+table   { border: 1px solid black; }
+td,th   { border: 1px solid black; }
+th      { width: 120px; }
