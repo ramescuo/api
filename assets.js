@@ -9679,7 +9679,7 @@ $('article').each(function () {
 });
 
 var anchor = window.location.hash.substring(1);
-if (anchor) $('article a[name=' + anchor + ']').trigger('click');
+if (anchor) $('article a[name="' + anchor + '"]').trigger('click');
 
 // Expanding the article on link click and scrolling down to it
 $('#sidebar a').each(function () {
@@ -9692,8 +9692,8 @@ $('#sidebar a').each(function () {
     });
 
     // If we find a link in the body with similar anchor, add the same behavior
-    $('.body a[href=#'+ id +']').click(function (e) {
-        $('#sidebar a[href=#'+ id +']').trigger('click');
+    $('.body a[href="#'+ id +'"]').click(function (e) {
+        $('#sidebar a[href="#'+ id +'"]').trigger('click');
     });
 });
 
