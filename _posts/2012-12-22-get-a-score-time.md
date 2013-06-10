@@ -1,7 +1,7 @@
 ---
 category: Score
 path: '/score/time/{id}'
-title: 'Get time information for a score'
+title: 'Get score time info'
 type: 'GET'
 
 layout: nil
@@ -9,24 +9,36 @@ layout: nil
 
 This method allows users to retrieve stuff.
 
-### Request
+### Parameters
 
-* The headers must include a **valid authentication token**.
+Name 			 |  Type     | Description     |
+:----------------|:----------|:----------------|
+**`id`**     	 | integer    | unique id of the score 	|
+**`secret`**     | string    | _optional_ 	   |
+  
+If the user is authenticated, the secret is not needed to access public resources. See [OAuth](#/authentication) for authentication.   
 
 ### Response
 
-Sends back a collection of things.
+{% highlight bash %}
+$ curl http://api.musescore.com/services/rest/score/583/space.xml?oauth_consumer_key=your_consumer_key
+< HTTP/1.1 200 OK
+{% endhighlight %}
 
-```Status: 200 OK```
-```{
-    {
-        id: thing_1,
-        name: 'My first thing'
-    },
-    {
-        id: thing_2,
-        name: 'My second thing'
-    }
-}```
+{% highlight xml %}
+<?xml version="1.0" encoding="utf-8"?>
+  <elements is_array="true">
+    <element>
+       <id>0</id>
+       <x>1183.1868963254592</x>
+       <y>2356.5019173228343</y>
+       <sx>1014.2236806299212</sx>
+       <sy>1321.9491732283464</sy><page>0</page>
+    </element>
+    <element><id>1</id>...</element>
+  </elements>
+ {% endhighlight %}
 
-For errors responses, see the [response status codes documentation](#response-status-codes).
+**`id`** is the unique id of the measure
+**`x`** and **`y `** are the coordinates of the measures in the page.
+**`sx`** and **`sy`** are the width and the height of a measure.

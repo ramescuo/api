@@ -15,3 +15,7 @@ This method allows the user to delete a score.
 
 ### Response
 
+{% highlight bash %}
+$ curl 'http://api.musescore.com/score/17?oauth_consumer_key=your_consumer_key' -X DELETE
+< HTTP/1.1 200 OK
+{% endhighlight %}

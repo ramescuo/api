@@ -13,9 +13,10 @@ Retrieves a given score.
 
 Name 			 |  Type     | Description     |
 :----------------|:----------|:----------------|
+**`id`**     	 | integer    | unique id of the score 	|
 **`secret`**     | string    | _optional_ 	   |
   
-If the user is authenticated, the secret is not needed to access public resources. See [[OAuth]] for authentication.                                                        
+If the user is authenticated, the secret is not needed to access public resources. See [OAuth](#/authentication) for authentication.                                                        
 
 ### Response
 
