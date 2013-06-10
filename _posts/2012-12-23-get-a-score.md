@@ -1,7 +1,7 @@
 ---
 category: Score
 path: '/score/{id}'
-title: 'Get score'
+title: 'Get a score'
 type: 'GET'
 
 layout: nil
