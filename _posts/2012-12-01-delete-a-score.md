@@ -9,9 +9,11 @@ layout: nil
 
 This method allows the user to delete a score.
 
-### Request
+### Parameters
 
-* **`{id}`** is the id of the score to delete.
+Name 			 |  Type     | Description              |
+:----------------|:----------|:-------------------------|
+**`id`**     	 | integer   | unique id of the score 	|
 
 ### Response
 
