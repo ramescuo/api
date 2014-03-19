@@ -15,3 +15,7 @@ Name 			 |  Type     | Description     |
 :----------------|:----------|:----------------|
 **`score_data`**     | file, *required*    |  The score file, mscz format only  |
 **`title`**          | string, *required*  |  Title of the score                |
+**`description`**    | string              |  Description for the score         |
+**`private`**        | boolean             |  1: private ; 0: *public*           |
+**`license`**        | string              |  *all-rights-reserved*, cc-by, cc-by-sa, cc-by-nd, cc-by-nc, cc-by-nc-sa, cc-by-nc-nd, publicdomain, cc-zero                            |
+**`tags`**           | string              |  *comma separated* list of tags     |
