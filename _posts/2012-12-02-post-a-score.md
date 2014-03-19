@@ -11,8 +11,7 @@ Creates a score belonging to the logged in user. Since a file asset is attached 
 
 ### Parameters
 
-Name                 | Type                | Description                        | 
-:--------------------|:--------------------|:-----------------------------------|
-**`score_data`**     | file, _required_    |  The score file, mscz format only  |
-
-
+Name 			 |  Type     | Description     |
+:----------------|:----------|:----------------|
+**`id`**     	 | integer    | unique id of the score 	|
+**`secret`**     | string    | _optional_ 	   |
