@@ -14,6 +14,5 @@ Creates a score belonging to the logged in user. Since a file asset is attached 
 Name                 | Type                | Description                        | 
 :--------------------|:--------------------|:-----------------------------------|
 **`score_data`**     | file, *required*    |  The score file, mscz format only  |
-**`title`**          | string, *required*  |  Title of the score                |
-**`description`**    | string              |  Description for the score         |
+
 
