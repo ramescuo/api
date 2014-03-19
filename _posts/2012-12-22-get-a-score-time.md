@@ -48,3 +48,4 @@ $ curl http://api.musescore.com/services/rest/score/583/time.xml?oauth_consumer_
 
 **`elid`** is the zero based index of the measure. The same id is used in the space representation.
 **`position`** is a time position in ms and is in sync with the MP3 and the MIDI file provided by the API
+

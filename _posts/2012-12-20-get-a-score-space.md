@@ -43,3 +43,4 @@ $ curl http://api.musescore.com/services/rest/score/583/space.xml?oauth_consumer
 **`x`** and **`y `** are the coordinates of the measures in the page.
 **`sx`** and **`sy`** are the width and the height of a measure.
 
+
