@@ -13,6 +13,6 @@ Creates a score belonging to the logged in user. Since a file asset is attached 
 
 Name                 | Type                | Description                        | 
 :--------------------|:--------------------|:-----------------------------------|
-**`score_data`**     | file, *required*    |  The score file, mscz format only  |
+**`score_data`**     | file, _required_    |  The score file, mscz format only  |
 
 
