@@ -16,4 +16,4 @@ Name                 | Type                | Description                       |
 **`score_data`**     | file, *required*    | the score file, mscz format only  |
 **`title`**          | string, *required*  | Title of the score                |
 **`description`**    | string              |  Description for the score        |
-**`private`**        | boolean             | 1: private ; 0: *public*          |
+
