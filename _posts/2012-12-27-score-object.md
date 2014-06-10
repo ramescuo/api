@@ -32,7 +32,7 @@ The score object is represented in XML or in JSON and **`GET`** calls to the Mus
       "download_count":4,
       "genre":"",
       "format":"",
-      "license":null,
+      "license":"all-rights-reserved",
       "language":null,
       "title":"Title of my score",
       "description":"Galactic score",
@@ -122,6 +122,7 @@ The score object is represented in XML or in JSON and **`GET`** calls to the Mus
 
 **`license`**
 : The license of the score 
+* **`all-rights-reserved`**
 * **`publicdomain`**
 * **`cc-zero`**
 * **`cc-by`**
